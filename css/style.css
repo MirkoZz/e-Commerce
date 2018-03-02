@@ -1,0 +1,283 @@
+body
+{
+  padding-top: 50px;
+}
+
+.starter-template
+{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/***** DIVERS *****/
+.erreur
+{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;    
+}
+
+.span_msg
+{
+  font-weight: bold;
+}
+
+/* TABLEAU */
+table
+{
+  width: 100%;
+  margin-top: 20px;
+  border-color: #2e6da4;
+}
+
+th
+{
+  padding: 10px;
+  text-align: center;
+  background-color:#337ab7;
+  color: #fff;
+  border-color: #2e6da4;
+}
+
+td
+{
+  padding: 10px;
+  text-align: center;
+  border-color: #2e6da4;
+}
+
+.table>tbody>tr>td
+{
+  vertical-align: middle;
+}
+/***** FIN DIVERS *****/
+
+/***** TITRE PRINCIPAL *****/
+.mon_icone
+{
+  color: #2e6da4;
+}
+/*****FIN TITRE PRINCIPAL *****/
+
+/***** PROFIL *****/
+/* PHOTO PROFIL*/
+#photo_profil
+{
+  width: 200px;
+  border: 1px solid black;
+  margin: auto auto;
+}
+/***** FIN PROFIL *****/
+
+/***** MENU *****/
+/* Bouton Admin */
+.badge_panier
+{
+  background-color: #2e6da4;
+  color: white;
+}
+
+#dropdownMenu1
+{
+  margin: 8px;
+  background-color: #222;
+  color: #9d9d9d;
+}
+
+nav .active
+{
+  background-color: #080808;    
+}
+
+#dropdownMenu1:hover
+{
+  color: #fff;
+}
+
+#dropdown-menu
+{
+  background-color: #222;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+#dropdown-menu a
+{
+  color: #9d9d9d;
+  padding: 10px;
+}
+
+#dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #222;
+}
+
+#btn_admin
+{
+    float: left;
+}
+/***** FIN MENU *****/
+
+/***** GESTION DES PRODUITS *****/
+.bouton_action
+{
+  width: 110px;
+  margin: 5px;
+  display: block;
+  flex-direction: row;
+}
+/***** FIN GESTION DES PRODUITS *****/
+
+/***** BOUTIQUE *****/
+#titre_list_group
+{
+  background-color: #2e6da4;
+  color: white;
+}
+
+.catalogue
+{
+  margin: 0;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.catalogue img
+{
+  width: 100vw;
+}
+
+.fiche_produit
+{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.thumbnail .caption
+{
+  padding: 9px;
+  color: #333;
+}
+
+.bouton_boutique{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.fiche_produit .prix
+{
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: right;
+  margin: 0;
+}
+
+.fiche_produit h3
+{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px 0 0 0;
+}
+
+.fiche_produit .detail
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.description
+{
+  font-size: 0.9em;
+  margin: 0px;
+}
+/***** FIN BOUTIQUE *****/
+
+/***** FICHE ARTICLE *****/
+.fiche_article .detail
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.fiche_article h3
+{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.fiche_article
+{
+  box-sizing: border-box;  
+}
+
+.fiche_article .thumbnail
+{
+  padding: 10px;
+}
+
+.fiche_article .prix
+{
+  padding: 0px;
+  font-weight: bold;
+  font-size: 2.3em;
+  text-align: right;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.fiche_article .titre
+{
+  font-weight: bold;
+}
+
+#rupture
+{
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.fiche_article button
+{
+  width: 100%;
+  padding: 10px;
+}
+
+.fiche_article a
+{
+  width: 100%;
+}
+/*** FIN FICHE ARTICLE ***/
+
+/*** PANIER ***/
+#total
+{
+  text-align: left;
+  font-size: 2em;
+  margin-right: 20px;
+}
+#panier_vide
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#retour_boutique
+{
+  padding-left: 0px;
+  width: 160px;
+}
+
+#connexion_panier
+{
+  text-align: center;
+}
+/*** FIN PANIER ***/

@@ -1,0 +1,10 @@
+1 - Modélisation de la base de données (db blog)
+2 - Mise en place de la base
+3 - Arborescence du projet (dossiers)
+4 - Framework? Installation (CSS / JS / ...)
+5 - Mise en place d'un template (header / footer / nav etc...)
+6 - Mise en place INIT (constante URL = src) / FONCTIONS / 
+7 - Création d'un formulaire pour créer des comptes utilisateurs + mise en place des controles
+8 - page connexion (membre / admin)
+9 - Création de contenu (formulaire enregistrement produit) + controles
+10 - Tests pour trouver des erreurs
